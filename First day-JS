@@ -1,0 +1,24 @@
+//javascript
+//int to string
+(1) var x = 10;
+    var a = x.toString();
+(2) var x = 10;
+    var a = x + "";
+//string to int
+(1) var x = "10";
+    var a = new Number(x);
+(2)    var x = "10";
+    var a = parseInt(x);
+
+//judge data type
+(1) typeof() can judge number、boolean、symbol、string、object、undefined、function .etc.
+    var x = 10;
+    print(typeof(x));
+(2) instanceof() can judge  prototype.
+    print(A instanceof B);
+(3) toString.call/apply()
+    var x = '10'
+    print(Object.prototype.toString.call(x))
+    
+
+
