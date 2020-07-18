@@ -1,0 +1,29 @@
+// The order of Array in GEE
+(1) axis = 1
+var a1 = ee.Array([1,2,3]);
+var a2 = ee.Array([2,3,4]);
+var aa = ee.Array.cat([a1,a2], 1);
+The length of aa is (3, 2). aa = [1,2
+                                  2,3
+                                  3,4]
+(2) axis = 0
+var a1 = ee.Array([1,2,3]);
+var a2 = ee.Array([2,3,4]);
+var aa = ee.Array.cat([a1,a2], 0);
+The length of aa is (6, ).  aa = [1,2,3,2,3,4]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
