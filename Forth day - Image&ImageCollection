@@ -1,0 +1,19 @@
+1、Image.float()
+用于在图像上添加一个时间波段时使用，原始图像为double类型，新加入的时间波段为int，会有不匹配问题
+eg: var time = ee.Image(2002).float();
+    var add_time = img.addBands(time);
+2、在ImageCollection中添加feature
+first: var L = ee.List([]);
+second: L.add(img);
+final: var collection = ee.ImageCollection(L);
+
+
+
+
+
+
+
+
+
+
+
