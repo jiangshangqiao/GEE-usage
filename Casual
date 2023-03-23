@@ -6,8 +6,8 @@ var func = function(image){...
 2. filterMetadata('cloud_cover', 'less_than', 10)
 This is useful that we can according to Metadata choose some image we want.
 
-
-
+3. imageCollection.map(func)
+apply a function to a list of year (instead of loop)
 
 
 
