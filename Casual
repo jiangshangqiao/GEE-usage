@@ -1,0 +1,21 @@
+1. Build the function
+var func = function(image){...
+                           return ...};
+
+
+2. filterMetadata('cloud_cover', 'less_than', 10)
+This is useful that we can according to Metadata choose some image we want.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
