@@ -6,6 +6,13 @@ M2: var multiply = function(image){
                       };
     var result = multiply(image);
 
+2. set and get property
+var addDate = function(getImg,setImg){
+                  var sdate = getImg.get('system:time_start').getInfo();
+                  var edate = getImg.get('system:time_end').getInfo();
+                  var index = getImg.get('system:index').getInfo();
+                  return setImg.set({'system:index':index,'system:time_start':sdate,'system:time_end':edate})
+                };
 
 
 
