@@ -1,0 +1,13 @@
+1. If a image want to multiply a constant, there are two methods.
+M1: var constant = ee.Image(0.1);  // create a constant image
+    var result = image.multiply(constant);
+M2: var multiply = function(image){
+                        return image.expression({expression:'0.1*band', map:{band:image}})
+                      };
+    var result = multiply(image);
+
+
+
+
+
+
